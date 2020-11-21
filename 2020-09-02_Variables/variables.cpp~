@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main(int argc, char **argv)
+{
+  double x=-9.6e3; //64bits, 8bytes
+  long double y = 9.6e3; //32bits
+  float z = 10.54e-8;
+  int a = 5678;
+  long int b = -98765443;
+  char l = 'a';
+  bool flag ='true';
+  std::cout <<sizeof(short int) <<std::endl;
+  std::cout <<sizeof(int) <<std::endl;
+  std::cout <<sizeof(long int) <<std::endl;
+  std::cout <<sizeof(float) <<std::endl;
+  std::cout <<sizeof(double) <<std::endl;
+  std::cout <<sizeof(long double) <<std::endl;
+  return 0;
+}
